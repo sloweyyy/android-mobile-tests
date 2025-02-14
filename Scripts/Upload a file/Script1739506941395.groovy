@@ -1,5 +1,5 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import com.katalon.testcloud.FileExecutor as FileExecutor
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
@@ -16,8 +16,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 
-String filePath = new File(RunConfiguration.getProjectDir() + ‘/’ + ‘Include/resources/thumbnail.png’).getCanonicalPath()
-
+String filePath = new File((RunConfiguration.getProjectDir() + '/') + 'Data Files/thumbnail.png').getCanonicalPath()
 
 WebUI.openBrowser('')
 

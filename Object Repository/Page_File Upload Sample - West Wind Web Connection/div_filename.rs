@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_filename</name>
+   <tag></tag>
+   <elementGuidId>dfb61811-1ccf-414c-942e-90d89951b220</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#filename</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'filename']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;1 file(s):thumbnail.png&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5a0bb410-3993-46d0-960c-49a7570a9358</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>filename</value>
+      <webElementGuid>c9bc0e77-bfaf-4f2d-ae17-a76945d98a44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>filename</value>
+      <webElementGuid>25b805fa-3ce3-4443-956b-d11525eaa465</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>@text</name>
+      <type>Main</type>
+      <value>1 file(s):
+thumbnail.png
+</value>
+      <webElementGuid>d49464b8-1514-4cea-95e9-17bf8d88a8da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-9b0c11af9fa1be2234be674860ce7a85</value>
+      <webElementGuid>902e997e-8591-429d-970e-8a9d94e90120</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'filename']</value>
+      <webElementGuid>9cbea4e7-c37a-4e10-845d-427df4be78c6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'filename']</value>
+      <webElementGuid>2d187d43-f878-495b-bb6d-7de19ae6ef59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'filename' and (text() = 'filename' or . = 'filename')]</value>
+      <webElementGuid>f293fea7-b2d3-4aff-823c-174338322044</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

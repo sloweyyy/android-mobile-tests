@@ -16,7 +16,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 
-String filePath = "Include/resources/thumbnail.png"
+String filePath = new File(RunConfiguration.getProjectDir() + ‘/’ + ‘Include/resources/thumbnail.png’).getCanonicalPath()
 
 
 WebUI.openBrowser('')

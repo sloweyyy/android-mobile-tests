@@ -28,5 +28,7 @@ CustomKeywords.'com.katalon.testcloud.FileExecutor.uploadFileToWeb'(findTestObje
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_File Upload Sample - West Wind Web Connection/div_1 file(s)thumbnail.png'), 
     0)
 
+WebUI.takeScreenshot()
+
 WebUI.closeBrowser()
 

@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('/var/folders/9y/pm5_v3w91dl63p1dvpnd4j_00000gp/T/Katalon/Test Cases/Upload a file/20250214_124258/execution.properties')
+RunConfiguration.setExecutionSettingFile('/var/folders/9y/pm5_v3w91dl63p1dvpnd4j_00000gp/T/Katalon/20250214_133519/execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Upload a file', new TestCaseBinding('Test Cases/Upload a file',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('', new TestCaseBinding('',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

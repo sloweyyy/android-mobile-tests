@@ -12,6 +12,16 @@
             <groupName>Mobile</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>emulator-5554 (sdk_gphone64_arm64 - Android 15)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>emulator-5554</value>
+               </entry>
+            </runConfigurationData>
             <runConfigurationId>Android</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -22,6 +32,16 @@
             <groupName>Mobile</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>emulator-5554 (sdk_gphone64_arm64 - Android 15)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>emulator-5554</value>
+               </entry>
+            </runConfigurationData>
             <runConfigurationId>Android</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>

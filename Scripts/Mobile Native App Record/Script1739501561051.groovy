@@ -17,3 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startApplication('/Users/phuc.truong/Documents/Code/android-mobile-tests/androidapp/APIDemos.apk', true)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Accessibility'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Accessibility Service'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageButton'), 0)
+
+Mobile.closeApplication()
+

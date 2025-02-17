@@ -17,27 +17,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('/Users/phuc.truong/Downloads/IT Glossary_1.5_Apkpure.apk', true)
+Mobile.startApplication('/Users/phuc.truong/Documents/Code/flutter-webview-sample-app/flutter_webview_sample_app/build/app/outputs/apk/release/app-release.apk', 
+    true)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.TextView - TermsDefinitions (1)'), 0)
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText'), 'katalon', 0)
 
-Mobile.swipe(0, 2000, 0, 700)
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText (1)'), 'katalon', 0)
 
-Mobile.verifyElementVisible(findTestObject('Object Repository/android.widget.TextView - Apple'), 0)
+Mobile.tap(findTestObject('Object Repository/android.widget.Button'), 0)
 
-Mobile.scrollToText('Call')
+Mobile.tap(findTestObject('Object Repository/android.widget.RadioButton'), 0)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Capturing'), 0)
+Mobile.tap(findTestObject('Object Repository/android.widget.RadioButton'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Object Repository/android.widget.TextView - Capturing (1)'), 0)
+Mobile.switchToNative()
 
-Mobile.pressBack()
-
-Mobile.tapAtPosition(433, 147)
-
-Mobile.setText(findTestObject('Object Repository/android.widget.EditText - Search (1)'), 'Alpha test', 0)
-
-Mobile.verifyElementExist(findTestObject('Object Repository/android.widget.TextView - Alpha test'), 0)
+Mobile.tap(findTestObject('Object Repository/android.widget.RadioButton'), 0)
 
 Mobile.closeApplication()
 

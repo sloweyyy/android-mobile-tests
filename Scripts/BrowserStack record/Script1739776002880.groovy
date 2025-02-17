@@ -17,27 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('/Users/phuc.truong/Downloads/IT Glossary_1.5_Apkpure.apk', true)
+Mobile.startApplication('bs://1d0274d4085ea96cdb7a86cdb9d888961a183cd1', true)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.TextView - TermsDefinitions (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Accessibility'), 0)
 
-Mobile.swipe(0, 2000, 0, 700)
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Accessibility Node Provider'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Object Repository/android.widget.TextView - Apple'), 0)
-
-Mobile.scrollToText('Call')
-
-Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Capturing'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/android.widget.TextView - Capturing (1)'), 0)
-
-Mobile.pressBack()
-
-Mobile.tapAtPosition(433, 147)
-
-Mobile.setText(findTestObject('Object Repository/android.widget.EditText - Search (1)'), 'Alpha test', 0)
-
-Mobile.verifyElementExist(findTestObject('Object Repository/android.widget.TextView - Alpha test'), 0)
+Mobile.verifyElementExist(findTestObject('Object Repository/android.view.View'), 0)
 
 Mobile.closeApplication()
 
